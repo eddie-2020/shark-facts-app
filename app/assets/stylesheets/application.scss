@@ -1,0 +1,85 @@
+@import "bootstrap";
+@import "bootstrap-sprockets";
+
+// index shark home page
+.shark_home_title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.new_shark_btn {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.show-table {
+    line-height: 50px;
+    border-radius: 10px;
+}
+
+.show-table:nth-of-type(odd) {
+    background-color: #efefef;
+}
+
+// create new shark page
+.form_shark_title {
+    padding: 20PX;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.error_explanation_prompt {
+    background-color: #efefef;
+    padding: 20px;
+}
+
+.field {
+    margin: 20px;
+    align-items: center;
+    width: 200px;
+}
+
+.error_counter {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.back-to_prev_shark_state {
+    padding: 20px;
+}
+
+// show shark page
+.destroy_shark {
+    padding: 20px;
+}
+
+.edit_shark {
+    text-decoration: none;
+}
+
+// destroy shark page
+.destroy_shark_details {
+    padding: 20px;
+}
+
+.prev_shark {
+    padding: 20px;
+}
+
+// alert message
+.show_alert {
+    background-color: #efefef;
+    text-align: center;
+    padding: 20px;
+}
+
+// edit shark facts
+.shark_edit_title {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding: 20px;
+}

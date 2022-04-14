@@ -1,0 +1,15 @@
+<p style="color: green" class="show_alert"><%= notice %></p>
+<div class="destroy_shark_details">
+  <%= render @shark %>
+</div>
+
+<div>
+  <div class="prev_shark">
+  <%= link_to "Edit this shark", edit_shark_path(@shark), class: 'btn btn-default' %> |
+  <%= link_to "Back to sharks", sharks_path, class: 'btn btn-default' %>
+  </div>
+
+  <div class="destroy_shark">
+  <%= button_to "Destroy this shark", @shark, method: :delete, class: 'btn btn-danger' %>
+  </div>
+</div>
